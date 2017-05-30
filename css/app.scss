@@ -1,0 +1,43 @@
+
+html {
+  font-family: 'Raleway', sans-serif;
+}
+
+#nav-top, li {
+  background: none no-repeat scroll 0 0 #FFFFFF;
+  font-family: 'Syncopate', sans-serif;
+
+}
+#nav-top .menu-text {
+  color: red;
+}
+#nav-top .icon-logo {
+  width: 50px;
+  height: 50px;
+}
+
+
+.landing {
+   background:url(https://static.pexels.com/photos/296115/pexels-photo-296115.jpeg) no-repeat center center fixed;
+    text-align: center;
+    min-height: 100vh;
+    display: block;
+  position:relative;
+  // -webkit-filter: blur(2px) grayscale(1);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.landing .row .headline {
+  vertical-align: middle;
+
+  color: white;
+  font-size: 2.5em;
+  text-shadow: 2px 2px #747474;
+}
+
+.headline .h1, .h2 {
+  font-size: 2.5em;
+}
