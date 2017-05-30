@@ -1,16 +1,8 @@
-$(document).foundation()
-function HeaderParallax() {
-  scrollPos = $(this).scrollTop();
-  $('.headline').css({
-    'margin-top': (scrollPos/4)+"px",
-    'opacity': 1-(scrollPos/250)
-  });
-}
-
 $(document).ready(function(){
 
+(function blink() {
+  $('.blink_me').fadeOut(500).fadeIn(500, blink); 
+})();
 
-  $(window).scroll(function() {
-    HeaderParallax();
-  });
+
 });
