@@ -20,19 +20,27 @@
 
 </head>
 
-<body>
+<body id="top">
 
   <!-- navbar -->
   <div class="header">
     <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
-      <img id='brand-logo' src="./img/enso.png" alt="">
+      <img id='brand-logo' src="./img/tags.png" alt="">
       <a class="pure-menu-heading" href="">nicTamura</a>
 
       <ul class="pure-menu-list">
-        <li class="pure-menu-item pure-menu-selected"><a href="#" class="pure-menu-link">Home</a></li>
-        <li class="pure-menu-item"><a href="#" class="pure-menu-link">Services</a></li>
-        <li class="pure-menu-item"><a href="#" class="pure-menu-link">Portfolio</a></li>
-        <li class="pure-menu-item"><a href="#" class="pure-menu-link">Connect</a></li>
+        <li class="pure-menu-item "><a href="#top" class="pure-menu-link">Home</a></li>
+        <li class="pure-menu-item"><a href="#services" class="pure-menu-link">Services</a></li>
+        <li class="pure-menu-item"><a href="#portfolio" class="pure-menu-link">Portfolio</a></li>
+        <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+            <a href="#" id="menuLink1" class="pure-menu-link">Connect</a>
+            <ul class="pure-menu-children">
+                <li class="pure-menu-item"><a href="#" class="pure-menu-link">Resume</a></li>
+                <li class="pure-menu-item"><a href="#" class="pure-menu-link">Github</a></li>
+                <li class="pure-menu-item"><a href="#" class="pure-menu-link">LinkedIn</a></li>
+            </ul>
+        </li>
+
       </ul>
     </div>
   </div>
@@ -45,7 +53,7 @@
         here.</p>
 
       <p>
-        <a href="http://purecss.io" class="pure-button pure-button-primary">Lets build a website</a>
+        <a href="http://purecss.io" class="pure-button button-xlarge button-warning">Lets build a website</a>
         <a href="http://purecss.io" class="pure-button pure-button-primary">I'm looking to hire</a>
       </p>
     </div>
@@ -53,7 +61,7 @@
 
 
   <!--  -->
-  <div class="content-wrapper">
+  <div class="content-wrapper" id="services">
     <div class="content">
       <h2 class="content-head is-center">Services I offer</h2>
 
@@ -130,7 +138,59 @@
       </div>
     </div>
 
-    <div class="content">
+
+
+
+    <div class="content" id="portfolio">
+      <h2 class="content-head is-center">Work I have done</h2>
+
+      <div class="pure-g">
+        <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+
+          <h3 class="content-subhead">
+            <i class="fa fa-rocket"></i>
+            Web Development
+          </h3>
+          <p>
+            Developing a website with a modern feel, hand crafted to suit your needs.
+          </p>
+        </div>
+        <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+          <h3 class="content-subhead">
+            <i class="fa fa-mobile"></i>
+            Responsive Layouts
+          </h3>
+          <p>
+            Websites are designed with responsive layouts to keep your site looking fresh on desktop, tablet or phone.
+          </p>
+        </div>
+        <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+          <h3 class="content-subhead">
+            <i class="fa fa-th-large"></i>
+            Maintenance
+          </h3>
+          <p>
+            Revamping and old site to something that is a little bit more 2017.
+          </p>
+        </div>
+        <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+          <h3 class="content-subhead">
+            <i class="fa fa-check-square-o"></i>
+            Noob Friendly
+          </h3>
+          <p>
+            I can write the code, grab the domain name, find a host and deploy it for you so that you don't have to. Easy peazy.
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+<!--  -->
+    <div class="content grayed">
       <h2 class="content-head is-center">Dolore magna aliqua. Uis aute irure.</h2>
 
       <div class="pure-g">

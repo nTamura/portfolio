@@ -6,3 +6,15 @@ html {
   width: 40px;
   vertical-align: middle;
 }
+
+.grayed {
+  background-color: #EDEDEB;
+}
+
+/*.pure-button-orange{
+    background: #F37465;
+}
+
+.button-warning {
+            background: rgb(223, 117, 20);
+}*/
