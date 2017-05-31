@@ -50,6 +50,37 @@ html {
     background: #EBB000;
 }
 
+/*.fade-in {
+  display: none;
+}
+.fade-left {
+  display: none;
+}
+.fade-right {
+  display: none;
+}*/
+
+
+.first, .second, .third {
+  opacity: 0;
+}
+
+.sq {
+padding: 10% 0;
+}
+
+
+.first.animated, .second.animated, .third.animated {
+  /*padding-top: 40px;*/
+  opacity: 1;
+}
+
+a.pure {
+  font-style: normal;
+  text-decoration: none;
+  color: inherit;
+}
+
 
 
 .right {

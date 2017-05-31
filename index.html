@@ -17,6 +17,9 @@
 
   <link rel="stylesheet" href="./css/marketing.css">
   <link rel="stylesheet" href="./css/app.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+
 
 </head>
 
@@ -106,33 +109,33 @@
       </div>
     </div>
 
+
 <!-- technologies -->
     <div class="ribbon l-box-lrg pure-g">
       <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
-        <img width="300" alt="File Icons" class="pure-img-responsive" src="./img/code.png">
+        <img width="300" alt="File Icons" class="pure-img-responsive animated"  data-animated="fadeInLeft" src="./img/code.png">
       </div>
       <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
-        <h2 class="content-head content-head-ribbon">Some of the technologies I work with</h2>
+        <h2 class="content-head content-head-ribbon">Some technologies I work with</h2>
         <p>
           Languages:
-          Javascript, Ruby, HTML, CSS
+          HTML5, CSS3, Javascript, Ruby
         </p>
         <p>
           Frameworks:
-          Ruby on Rails, Node.js, React.js React Native
-          Wordpress?
-        </p>
-
-        <p>
-          CSS Frameworks:
-          Bootstrap, Materialize, Semantic UI, Pure
-        </p>
-        <p>
-          jQuery, AJAX, PostgreSQL,
+          Ruby on Rails, jQuery, Node.js, React.js React Native, Wordpress
         </p>
         <p>
           CSS Frameworks:
           Bootstrap, Materialize, Semantic UI, Pure
+        </p>
+        <p>
+          Back-End:
+          PostgreSQL, Active Record
+        </p>
+        <p>
+          Other Software:
+          Atom, Heroku, Github, Illustrator, OSX, Linux, Windows
         </p>
       </div>
     </div>
@@ -163,19 +166,16 @@ yellow CSS
 <button class="button-tag tag-yellow pure-button">Semantic UI</button>
  -->
 
-
-
-
     <div class="content" id="portfolio">
       <h2 class="content-head is-center">Showcase</h2>
 
       <div class="pure-g">
-        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
-          <div class="l-box">
-            <img class="pure-img pull-right" src="http://ftp1.digi.com/support/documentation/html/90001929/90001929_B/Images/sampleapp-tablet.png" alt="">
+        <div class="sq pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
+          <div class="l-box first">
+            <img class="pure-img" src="http://ftp1.digi.com/support/documentation/html/90001929/90001929_B/Images/sampleapp-tablet.png" alt="">
           </div>
         </div>
-        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
+        <div class="sq pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
           <div class="l-box left">
             <h3 class="content-subhead">KUMA Suite</h3>
             <i class="fa fa-tag"></i>
@@ -196,7 +196,7 @@ yellow CSS
       </div>
 
       <div class="pure-g">
-        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
+        <div class="sq pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
           <div class="l-box right">
             <h3 class="content-subhead">VanTech Web</h3>
             <i class="fa fa-tag"></i>
@@ -210,8 +210,8 @@ yellow CSS
           </div>
         </div>
 
-        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
-          <div class="l-box">
+        <div class="sq pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
+          <div class="l-box second">
             <img class="pure-img" src="./img/vtwscreen.png" alt="">
           </div>
         </div>
@@ -222,12 +222,12 @@ yellow CSS
       </div>
 
       <div class="pure-g">
-        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
-          <div class="l-box">
+        <div class="sq pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
+          <div class="l-box third">
             <img class="pure-img pull-right" src="http://ftp1.digi.com/support/documentation/html/90001929/90001929_B/Images/sampleapp-tablet.png" alt="">
           </div>
         </div>
-        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
+        <div class="sq pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
           <div class="l-box left">
             <h3 class="content-subhead">This Sample App</h3>
             <i class="fa fa-tag"></i>
@@ -242,35 +242,55 @@ yellow CSS
     </div>
 
 <!-- footer -->
-    <div class="content grayed">
+    <div class="content grayed" id="contact">
       <h2 class="content-head is-center">
         Let's talk. Let's make something together.
       </h2>
 
       <div class="pure-g">
         <div class="l-box-lrg pure-u-1 pure-u-md-1-2 right">
-          <a class="pure-menu-link"><i class="fa fa-address-card-o"></i>
+          <p><i class="fa fa-address-card-o"></i>
             Nic Tamura
-          </a>
-          <a class="pure-menu-link">nicTamura@gmail.com</a>
-          <a class="pure-menu-link">7788228004</a>
+          </p>
+          <p><a href="mailto:nicTamura@gmail.com?Subject=Website%20inquiry" target="_top" class="pure">
+            nicTamura@gmail.com
+          </a></p>
+          <p><a class="pure">
+            778•882•8oo4
+          </a></p>
+          <p><a class="pure">
+            Vancouver, BC
+          </a></p>
         </div>
 
         <div class="l-box-lrg pure-u-1 pure-u-md-1-2 left">
-          <a href="#" class="pure-menu-link">
-            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
-            Resume
-          </a>
-          <a href="https://github.com/nTamura" class="pure-menu-link">
-            <i class="fa fa-github" aria-hidden="true"></i>
-            Github
-          </a>
-          <a href="https://www.linkedin.com/in/nictamura/" class="pure-menu-link">
+          <p><a href="https://www.linkedin.com/in/nictamura/" class="pure">
             <i class="fa fa-linkedin-square" aria-hidden="true"></i>
             LinkedIn
-          </a>
+          </a></p>
+          <p><a href="https://github.com/nTamura" class="pure">
+            <i class="fa fa-github" aria-hidden="true"></i>
+            Github
+          </a></p>
+          <p><a href="./documents/test.md" download class="pure">
+            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+            PDF Resume
+          </a></p>
+          <p><a href="./documents/test.md" download class="pure">
+            <!-- <a href="./documents/nic_tamura_printer_friendly.pdf" download class="pure"> -->
+            <i class="fa fa-file-o" aria-hidden="true"></i>
+            Printer-friendly Resume
+          </a></p>
+
         </div>
       </div>
+      <div class="space pure-form">
+        <legend></legend>
+      </div>
+      <div class="row">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <br>
     </div>
 
 <!-- sticky footer bar -->
@@ -281,9 +301,10 @@ yellow CSS
 
 
 <!-- scripts -->
-  <script src="js/vendor/jquery.js"></script>
-  <script src="js/app.js"></script>
 
-</body>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
 
+      <script src="js/app.js"></script>
+  </body>
 </html>
