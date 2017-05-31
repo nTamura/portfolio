@@ -30,13 +30,27 @@ html {
         }
 
 
+/* tags and colors */
 .button-tag {
-    background: rgb(66, 184, 221);
     font-size: 60%;
     color: white;
     border-radius: 4px;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 }
+.tag-blue {
+  background: rgb(66, 184, 221);
+}
+.tag-red {
+    background: #CC0E0E;
+}
+.tag-green {
+    background: #15BB00;
+}
+.tag-yellow {
+    background: #EBB000;
+}
+
+
 
 .right {
   text-align: right;
