@@ -4,6 +4,7 @@ html {
 
 #brand-logo {
   width: 40px;
+  margin-left: 20px;
   vertical-align: middle;
 }
 
@@ -11,10 +12,40 @@ html {
   background-color: #EDEDEB;
 }
 
-/*.pure-button-orange{
+.pure-button-orange{
     background: #F37465;
 }
 
 .button-warning {
-            background: rgb(223, 117, 20);
-}*/
+            background: #E97521;
+            color: white;
+            border-radius: 4px;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+.button-secondary {
+            background: #23C4EE;
+            color: white;
+            border-radius: 4px;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+        }
+
+
+.button-tag {
+    background: rgb(66, 184, 221);
+    font-size: 60%;
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.right {
+  text-align: right;
+}
+.left {
+  text-align: left;
+}
+
+
+.space {
+  margin: 50px 50px;
+}
