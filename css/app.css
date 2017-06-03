@@ -94,3 +94,18 @@ a.pure {
 .space {
   margin: 50px 50px;
 }
+
+
+
+
+/**/
+
+
+
+@media (max-width: 62em) {
+  .smHidden {
+    display: none;
+  }
+  .splash {
+    margin-top: 15px;
+  }

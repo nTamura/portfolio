@@ -32,9 +32,9 @@
       <a class="pure-menu-heading" href="">nicTamura</a>
 
       <ul class="pure-menu-list">
-        <li class="pure-menu-item "><a href="#top" class="pure-menu-link">Home</a></li>
-        <li class="pure-menu-item"><a href="#services" class="pure-menu-link">Services</a></li>
-        <li class="pure-menu-item"><a href="#portfolio" class="pure-menu-link">Portfolio</a></li>
+        <li class="pure-menu-item"><a href="#top" class="pure-menu-link smHidden">Home</a></li>
+        <li class="pure-menu-item"><a href="#services" class="pure-menu-link smHidden">Services</a></li>
+        <li class="pure-menu-item"><a href="#portfolio" class="pure-menu-link smHidden">Portfolio</a></li>
         <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
           <a href="#" id="menuLink1" class="pure-menu-link">Connect</a>
           <ul class="pure-menu-children">
@@ -46,20 +46,25 @@
         </li>
       </ul>
     </div>
-  </div>
+
+</div>
+
+
 
 <!-- splash parallax -->
   <div class="splash-container">
     <div class="splash">
-      <h1 class="splash-head">&lt; nic_tamura /&gt;<span class="blink_me">_</span></h1>
+      <h1 class="splash-head">&lt;nic_tamura/&gt;<span class="blink_me">_</span></h1>
       <p class="splash-subhead">
         I am an aspiring Full-Stack Web Developer based in Vancouver, BC. I create clean, yet effective web pages, and rich, interactive web apps. If you are a business seeking a web presence or an employer looking to hire, you can get in touch with me
         here.
       </p>
 
       <p>
-        <a href="http://purecss.io" class="pure-button button-xlarge button-warning">Lets build a website</a>
-        <a href="http://purecss.io" class="pure-button button-secondary">Hire me</a>
+        <a href="https://goo.gl/forms/rvggIqzd2KDvhby33" target="_blank" class="pure-button button-xlarge button-warning">Lets build a website</a>
+        <a href="http://linkedin.com/in/nictamura" class="pure-button button-secondary"><i class="fa fa-linkedin-square" aria-hidden="true"></i>
+
+ Hire me</a>
       </p>
     </div>
   </div>
@@ -139,6 +144,7 @@
         </p>
       </div>
     </div>
+
 
 <!-- showcase -->
 <!-- tag buttons -->
@@ -221,7 +227,7 @@ yellow CSS
         </div>
       </div>
 
-      <div class="space pure-form">
+      <!-- <div class="space pure-form">
         <legend></legend>
       </div>
 
@@ -242,7 +248,7 @@ yellow CSS
             </p>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
 
 <!-- footer -->
@@ -276,23 +282,16 @@ yellow CSS
             <i class="fa fa-github" aria-hidden="true"></i>
             Github
           </a></p>
-          <p><a href="./documents/ResumeNictamura.pdf" download="nictamura_resume.pdf" class="pure">
+          <p><a href="./documents/nictamura_resume.pdf" download="nictamura_resume.pdf" class="pure">
             <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
             Download PDF Resume
           </a></p>
-          <p><a href="./documents/ResumeNictamura.pdf" download="nictamura_resume_printer_friendly.pdf" class="pure">
-            <!-- <a href="./documents/nic_tamura_printer_friendly.pdf" download class="pure"> -->
+          <p><a href="./documents/nictamura_resume_printer_friendly.pdf" download="nictamura_resume_printer_friendly.pdf" class="pure">
             <i class="fa fa-file-o" aria-hidden="true"></i>
             Printer-friendly Resume
           </a></p>
 
         </div>
-      </div>
-      <div class="space pure-form">
-        <legend></legend>
-      </div>
-      <div class="row">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
       <br>
     </div>
@@ -301,7 +300,7 @@ yellow CSS
     <div class="footer l-box is-center">
       nTamura May 2017
     </div>
-</div>
+  </div>
 
 
 <!-- scripts -->
@@ -309,6 +308,15 @@ yellow CSS
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
 
-      <script src="js/app.js"></script>
+<script>
+  (function(window, document) {
+    document.getElementById('toggle').addEventListener('click', function (e) {
+    document.getElementById('tuckedMenu').classList.toggle('custom-menu-tucked');
+    document.getElementById('toggle').classList.toggle('x');
+    });
+  })(this, this.document);
+</script>
+
+    <script src="js/app.js"></script>
   </body>
 </html>
