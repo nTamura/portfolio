@@ -12,67 +12,80 @@ html {
   background-color: #EDEDEB;
 }
 
-.pure-button-orange{
-    background: #F37465;
+.pure-button-orange {
+  background: #F37465;
 }
 
 .button-warning {
-            background: #E97521;
-            color: white;
-            border-radius: 4px;
-            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  background: #E97521;
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 }
+
 .button-secondary {
-            background: #23C4EE;
-            color: white;
-            border-radius: 4px;
-            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-        }
+  background: #23C4EE;
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
 
 .body-container {
   padding-left: 2em;
-padding-right: 2em;
+  padding-right: 2em;
 }
 
 /* tags and colors */
+
 .button-tag {
-    font-size: 60%;
-    color: white;
-    border-radius: 4px;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  font-size: 60%;
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 }
+
 .tag-blue {
   background: rgb(66, 184, 221);
 }
+
 .tag-red {
-    background: #CC0E0E;
+  background: #CC0E0E;
 }
+
 .tag-green {
-    background: #15BB00;
+  background: #15BB00;
 }
+
 .tag-yellow {
-    background: #EBB000;
+  background: #EBB000;
 }
 
-/*.fade-in {
-  display: none;
+/* code syntax */
+.element-color {
+  color: #dd4e21;
 }
-.fade-left {
-  display: none;
-}
-.fade-right {
-  display: none;
-}*/
 
+.attr-color {
+  color: #ec7d0b;
+}
+
+.val-color {
+  color: #5bcc43;
+}
+
+.content-color {
+  color: white;
+}
+
+/*  */
 
 .first, .second, .third {
   opacity: 0;
 }
 
 .sq {
-padding: 10% 0;
+  padding: 10% 0;
 }
-
 
 .first.animated, .second.animated, .third.animated {
   /*padding-top: 40px;*/
@@ -85,26 +98,23 @@ a.pure {
   color: inherit;
 }
 
-
-
 .right {
   text-align: right;
 }
+
 .left {
   text-align: left;
 }
-
 
 .space {
   margin: 50px 50px;
 }
 
-
-
-
+.padtb {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 /**/
-
-
 
 @media (max-width: 62em) {
   .smHidden {

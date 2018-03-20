@@ -1,3 +1,5 @@
+/* default theme colors */
+
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -162,7 +164,7 @@ a.pure-button-primary {
     color: white;
     border: 3px solid white;
     background-color: #222;
-    padding: 1em 1.6em;
+    padding: 1em 1em;
     font-weight: 100;
     border-radius: 5px;
     line-height: 1em;
@@ -173,6 +175,13 @@ a.pure-button-primary {
     color: white;
     letter-spacing: 0.05em;
     opacity: 0.8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.code {
+  font-family: monospace;
+  font-size: 1.2em !important;
 }
 
 /*
@@ -247,9 +256,9 @@ a.pure-button-primary {
     .home-menu {
         text-align: left;
     }
-        .home-menu ul {
-            float: right;
-        }
+    .home-menu ul {
+        float: right;
+    }
 
     /* We increase the height of the splash-container */
 /*    .splash-container {
@@ -266,7 +275,10 @@ a.pure-button-primary {
     .splash-head {
         font-size: 250%;
     }
-
+    .code {
+      font-family: monospace;
+      font-size: 2em !important;
+    }
 
     /* We remove the border-separator assigned to .l-box-lrg */
     .l-box-lrg {
